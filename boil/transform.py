@@ -6,7 +6,7 @@ from boil import util
 from boil import models
 from boil import exc
 
-__all__ = ('create_class',)
+__all__ = ('create_class','parse_string',)
 
 def create_init_method(classname, args=None, kwargs=None):
     args = util.insert_arg('self', args or ())
