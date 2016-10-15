@@ -2,7 +2,7 @@
 
 ~~~~
 In [1]: from boil import boil
-In [2]: boil(MyClass arg1 arg2 arg3, kwarg1 kwarg2 kwarg3)
+In [2]: boil('MyClass arg1 arg2 arg3, kwarg1 kwarg2 kwarg3')
 Out[2]: 
 class MyClass(object):
     def __init__(self,
